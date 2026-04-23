@@ -5,12 +5,14 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Logo from '../assets/images/logo.png';
+import LogoBlack from '../assets/images/logo.png';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import SliderOneImg from '../assets/images/banner-1.jpg';
 import SliderTwoImg from '../assets/images/banner-2.jpg';
 import ProductImg from '../assets/images/eight.jpg';
 import LatestProducts from "./common/LatesProducts";
+import FeaturedProducts from "./common/FeaturedProducts";
 
 const Home = () => {
     return (
@@ -73,6 +75,36 @@ const Home = () => {
           </section>
 
          <LatestProducts/>
+
+         <FeaturedProducts/>
+
+         <footer>
+             <div className="container">
+                <div className="row">
+                    <div className="col-md-3">
+                        <img src={LogoBlack} alt="" className="mb-3"/>
+                        <div className="pt-3"> 
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.
+                        </div>
+                    </div>
+                    <div className="col-md-3">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="">Mens</a></li>
+                            <li><a href="">Womens</a></li>
+                            <li><a href="">Kids</a></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-3">
+                        <h3>Quick Links</h3> 
+                        <ul>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">Register</a></li> 
+                        </ul>
+                    </div>
+                </div>
+             </div>
+         </footer>
 
 
         </>

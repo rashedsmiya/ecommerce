@@ -96,6 +96,19 @@ ul{
     }
 }
 
+footer{
+    background-color: $tertiary-color;
+    ul{
+        li{
+            margin-bottom: 10px;
+            a{
+                font-size: 1.2em;
+                color: $primary-white;
+            }
+        }
+    }
+}
+
 header{
     .navbar-expand-lg{
         .navbar-nav{
