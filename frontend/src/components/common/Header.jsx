@@ -12,7 +12,7 @@ const Header = () => {
                 </div>
                 <div className="container">
                 <Navbar expand="lg">
-                  <Navbar.Brand href="#">
+                  <Navbar.Brand href="/">
                     <img src={Logo} alt="Logo" className="d-inline-block align-top" />
                   </Navbar.Brand>
                     <Container fluid> 
