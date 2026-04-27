@@ -177,6 +177,15 @@ header{
     }
 }
 
+.product-detail{
+    .mySwiper{
+        .swiper-slide{
+            height: auto !important;
+            
+        }
+    }
+}
+
 @media (min-width: 200px) and (max-width: 767px) {
     .section-1{
         .swiper{

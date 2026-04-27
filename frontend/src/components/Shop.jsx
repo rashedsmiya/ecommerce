@@ -62,9 +62,7 @@ const Shop = () => {
                 </div>
 
                 <div className='col-md-8'>
-
                 <div className='row pb-5'>
-
                      <div className="col-md-4 col-6">
                       <div className="product card border-0">
                           <div className="card-img">
@@ -150,9 +148,7 @@ const Shop = () => {
                           </div>
                       </div>
                   </div>
-
                 </div>
-
                 </div>
               </div>
            </div>
